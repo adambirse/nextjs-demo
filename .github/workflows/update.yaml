@@ -26,8 +26,8 @@ jobs:
       - name: commit update
         run: |
           if ! git diff --quiet --exit-code ; then
-            git config --local user.email "auto@purplepip.com"
-            git config --local user.name "Purple Pip Robot"
+            git config --local user.email "autofix@primednumber.com"
+            git config --local user.name "Primed number"
             git commit -am "Auto-update"
             git push
           fi
