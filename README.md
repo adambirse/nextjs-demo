@@ -1,3 +1,3 @@
 # My Slides
 
-Sample next js project.
+Sample next js project
